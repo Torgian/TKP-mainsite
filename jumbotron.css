@@ -1,0 +1,17 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+div .col-md-4 img
+{
+	width: 100%;
+	height: 100%;
+}
+div .container{
+	background:black;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+
+}
