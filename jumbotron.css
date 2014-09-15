@@ -35,7 +35,7 @@ img.center {
 
 .ribbon {
    width: 1200px;
-   margin: 8%;
+   margin-left: 8%;
    position:absolute;
    text-align: center;
    font-size: 23px!important;
