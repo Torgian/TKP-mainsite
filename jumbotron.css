@@ -2,20 +2,28 @@
 
 
 
-
-    
-
-
 body {
 
   padding-top: 30px;
   padding-bottom: 20px;
-  
   background:no-repeat;
   background:fixed;
   background-size:100%;
-  background-image:url(images/backgroundribbon.jpg); 
+  background-image:url(images/ribbonwhite.jpg); 
   
+}
+@font-face{ 
+   font-family: 'EdoWebFont';
+   src: url('edo-WebFont.eot');
+   src: url('edo-WebFont.eot?iefix') format('eot'),
+        url('edo-WebFont.woff') format('woff'),
+        url('edo-WebFont.ttf') format('truetype'),
+        url('edo-WebFont.svg#webfont') format('svg');
+}
+
+.container {
+   margin-left:7%;
+
 }
 
 
@@ -23,18 +31,22 @@ body {
 {
 	width: 80%;
 	height: 80%;
+
 }
  
 .underribbon {
 
-	padding-top:70px;
+   font-family: 'EdoWebFont';
+	padding-top:80px;
 	padding-bottom:40px;
+   text-align:center;
+  
+   
 }	
-img.center {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}
+
+
+
+
 
 
 
@@ -47,8 +59,9 @@ img.center {
 
 .ribbon {
    margin-top:1.4%;
-   width: 1071px;
-   margin-left: 12.85%;
+   width: 83%;
+
+   margin-left:5%;
    position:absolute;
    text-align: center;
    font-size: 23px!important;
